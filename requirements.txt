@@ -1,0 +1,9 @@
+# Training and evaluation. Tested with Python 3.10.12.
+# Install torch / torchvision first with the CUDA build for your driver (see README), e.g. cu124:
+#   pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0
+torchvision==0.21.0
+numpy==1.26.4
+matplotlib==3.7.5
+tqdm
+wandb==0.19.5

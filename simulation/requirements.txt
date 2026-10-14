@@ -1,0 +1,12 @@
+matplotlib==3.7.5
+mujoco==3.2.2
+numpy==1.26.4
+scipy
+tqdm
+imageio[ffmpeg]
+opencv-python
+PyQt5
+torch
+torchvision
+pandas
+odfpy

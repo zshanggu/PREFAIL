@@ -1,0 +1,24 @@
+__pycache__/
+
+# Data, caches and training outputs
+data/
+data_all/
+dataset_cache/
+saved_model/
+final_model/
+results/
+results_final/
+temp_val_results/
+
+# Simulation: large object mesh sets (~410 MB); only boxes is tracked
+simulation/model/ur5e/assets/objects/*
+!simulation/model/ur5e/assets/objects/boxes/
+
+# Simulation: generated per object by tools/update_scene_xml.py and tools/update_sim_config.py
+simulation/**/*_tmp.xml
+simulation/**/*_tmp.json
+
+# Simulation: outputs
+simulation/data/
+simulation/videos/
+simulation/MUJOCO_LOG.TXT
