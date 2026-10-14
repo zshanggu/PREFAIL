@@ -3,6 +3,12 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2607.16921-b31b1b.svg)](https://arxiv.org/abs/2607.16921)
 [![GitHub license](https://badgen.net/github/license/zshanggu/PREFAIL)](https://github.com/zshanggu/PREFAIL/blob/master/LICENSE)
 
+-------
+
+
+This repository accompanies the The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026 paper "[PREFAIL: Identifying Precursors to Failures in Robotic Lift-and-Place Tasks to Improve Task Execution Performance](https://arxiv.org/abs/2607.16921)" by _Zeyu Shangguan, Rajas Chitale, Rutvik Patel, Satyandra K. Gupta, and Daniel Seita_.
+
+<b> [ Important Notice ] </b> &nbsp;&nbsp; PREFAIL first appeared on Second Workshop on [Out-of-Distribution Generalization in Robotics at RSS 2025](https://openreview.net/forum?id=8YqULXPS6r). This repository corresponds to [the final published version accepted by The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) in 2026](https://arxiv.org/pdf/2607.16921). PREFAIL also appeared on [The 1st International Workshop on Industrial Applications of Robot Learning (IARL) at IROS 2026](https://aistairc.github.io/IROS2026-workshop/#organizers). Please kindly be advised to refer to the latest version of the paper.
 ---
 
 ## Brief Introduction
@@ -114,5 +120,19 @@ Please consider citing:
   author={Shangguan, Zeyu and Chitale, Rajas and Patel, Rutvik and Gupta, Satyandra K and Seita, Daniel},
   journal={arXiv preprint arXiv:2607.16921},
   year={2026}
+}
+
+@inproceedings{shangguan2026prefail,
+  title={PREFAIL: Identifying Precursors to Failures in Robotic Lift-and-Place Tasks to Improve Task Execution Performance},
+  author={Shangguan, Zeyu and Chitale, Rajas and Patel, Rutvik and Gupta, Satyandra and Seita, Daniel},
+  booktitle={The first International Workshop on Industrial Applications of Robot Learning (IARL) at IROS 2026},
+  year={2026}
+}
+
+@inproceedings{shangguan2025identifying,
+  title={Identifying Precursors to Failures in Robotic Lift-and-Place Tasks},
+  author={Shangguan, Zeyu and Chitale, Rajas and Patel, Rutvik and Gupta, Satyandra and Seita, Daniel},
+  booktitle={Second Workshop on Out-of-Distribution Generalization in Robotics at RSS 2025},
+  year={2025}
 }
 ```
